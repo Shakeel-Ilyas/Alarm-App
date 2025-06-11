@@ -30,7 +30,7 @@ const handleSubmit = (event) => {
     hours: hour.value,
     seconds: sec.value,
     minutes: min.value,
-    zone: zone.value
+    zone: zone.value,
   });
   // Reset form after submit
   document.forms[0].reset();
