@@ -42,9 +42,12 @@ const handleSubmit = (event) => {
 };
 
 const handleClear = () => {
+  alarmAudio.remove()
+    alarmAudio.load()
   alarmString = "";
   activeAlarm.style.display = "none";
   createAlarm.style.display = "block";
+
 };
 
 // Trigger handleClear on button click
